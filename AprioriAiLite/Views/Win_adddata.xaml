@@ -1,0 +1,20 @@
+﻿<Window x:Class="AprioriAiLite.Views.Win_adddata"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AprioriAiLite.Views"
+        mc:Ignorable="d"
+        Title="Tambah Datat" Height="291.176" Width="554.779" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textbox_items" Margin="28,73,10,51" TextWrapping="Wrap" Text="" Grid.ColumnSpan="1"/>
+        <Label  Content="Pisahkan Items dengan ',' diharapkan penulisan item harus sama case sensitive" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" FontSize="13" FontWeight="Bold"/>
+        <Button x:Name="button_simpan" Content="Tambah" Margin="0,0,10,10" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75"/>
+        <Label  Content="Tambah" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Light"/>
+        <TextBox x:Name="textBox_namadata" Height="23" Margin="66,46,0,0" TextWrapping="Wrap" Text="nama data" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="120" FontFamily="Segoe UI Light"/>
+
+    </Grid>
+</Window>
